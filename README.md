@@ -28,8 +28,9 @@ npm run dev
 npm run build
 ```
 
-### Demo link
+### Demo link: https://yurii-kozlov.github.io/vue3-todo-app/
 
-```sh
-https://yurii-kozlov.github.io/vue3-todo-app/
-```
+
+
+
+
