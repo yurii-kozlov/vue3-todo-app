@@ -1,8 +1,7 @@
 import { client } from "../utils/htttpClient";
 
 export const getTodos = () => {
-  return client.get('/todos?userId=6342')
-    .then(() => Promise.reject())
+  return client.get('/todos?userId=6342');
 }
 
 export const createTodo = (title) => {
@@ -12,6 +11,7 @@ export const createTodo = (title) => {
     userId: 6342,
   });
 }
+
 export const updateTodo = ({ id, title, completed }) => {
   return client.patch(`/todos/${id}`, {
     title,
@@ -22,4 +22,3 @@ export const updateTodo = ({ id, title, completed }) => {
 export const deleteTodo = (todoId) => {
   return client.delete(`/todos/${todoId}`);
 };
- 
