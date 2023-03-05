@@ -27,3 +27,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+Demo link: https://yurii-kozlov.github.io/vue3-todo-app/
